@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <h1>Hangman</h1>
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+
+
+            </div>
+        </div>
+    </div>
+            
+    <script type="text/javascript">
+    
+    var hiddenWords = ["supernova", "Planet", "Nebula", "celestial", "asteroid", "comet", "atlas", "quasar", "satellite", "titan"];
+    
+    for (var i = 0; i < hiddenWords.length; i++) {
+        console.log(hiddenWords[i]);
+      }
+
+      function logArray(list) {
+        for (var j = 0; j < list.length; j++) {
+          console.log(list[j]);
+        }
+      }
+
+      logArray(hiddenWords); 
+
+    var answerArray = [];
+    for (var  i = 0; i < hiddenWords.length; i++) {
+        answerArray[i] = "_";
+    }
+
+    alert(answerArray.join(" "));
+    </script>  
+    
+<button type ="button">A</button>
+<button type="button">B</button>
+<button type="button">C</button>
+<button type="button">D</button>
+<button type="button">E</button>
+<button type="button">F</button>
+<button type="button">G</button>
+<button type="button">H</button>
+<button type="button">I</button>
+<button type="button">J</button>
+<button type="button">K</button>
+<button type="button">L</button>
+<button type="button">M</button>
+<button type="button">N</button>
+<button type="button">O</button>
+<button type="button">P</button>
+<button type="button">Q</button>
+<button type="button">R</button>
+<button type="button">S</button>
+<button type="button">T</button>
+<button type="button">U</button>
+<button type="button">V</button>
+<button type="button">W</button>
+<button type="button">X</button> 
+<button type="button">Y</button> 
+<button type="button">Z</button>   
+
+
+
+</body>
+</html>
